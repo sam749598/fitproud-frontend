@@ -19,7 +19,7 @@ import CreatePost from './pages/Dashboard/CreatePost';
 import EditPost from './pages/Dashboard/EditPost';
 import Post from './pages/Post';
 import Footer from './pages/Footer';
-import AboutUs from './pages/Footer/Aboutus';
+import AboutUs from './pages/Footer/AboutUs';
 import Contact from './pages/Footer/Contact';
 import Terms from './pages/Footer/Terms';
 import Privacy from './pages/Footer/Privacy';

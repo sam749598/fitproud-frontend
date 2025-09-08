@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-// Correct imports from Items folder
-import beautyImg from "../assets/Items/beauty.jpg";
-import brainImg from "../assets/Items/brain.jpg";
-import coreImg from "../assets/Items/core.jpg";
-import hormoneImg from "../assets/Items/hormone.jpg";
-import miscImg from "../assets/Items/miscellaneous.jpg";
-import muscleImg from "../assets/Items/musculoskeletal.jpg";
-import organImg from "../assets/Items/organ.jpg";
-import weightImg from "../assets/Items/weight.jpg";
+// Correct imports from items folder
+import beautyImg from "../assets/items/beauty.jpg";
+import brainImg from "../assets/items/brain.jpg";
+import coreImg from "../assets/items/core.jpg";
+import hormoneImg from "../assets/items/hormone.jpg";
+import miscImg from "../assets/items/miscellaneous.jpg";
+import muscleImg from "../assets/items/musculoskeletal.jpg";
+import organImg from "../assets/items/organ.jpg";
+import weightImg from "../assets/items/weight.jpg";
 
 const categories = [
   { name: "Beauty & Skin Care", image: beautyImg, link: "/category/beauty" },
