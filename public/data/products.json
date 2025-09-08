@@ -1,0 +1,431 @@
+{
+  "beauty": [
+    {
+      "id": 1,
+      "name": "Radiant Glow Serum",
+      "description": "Boosts skin brightness and reduces dark spots naturally.",
+      "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/product1"
+    },
+    {
+      "id": 2,
+      "name": "Hydra Moisturizer",
+      "description": "Deep hydration formula for soft and supple skin.",
+      "image": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/product2"
+    },
+    {
+      "id": 3,
+      "name": "Anti-Aging Cream",
+      "description": "Reduces fine lines and improves skin elasticity.",
+      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/product3"
+    },
+    {
+      "id": 4,
+      "name": "Vitamin C Face Wash",
+      "description": "Cleanses impurities and brightens skin tone.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/product4"
+    },
+    {
+      "id": 5,
+      "name": "Herbal Face Mask",
+      "description": "Rejuvenates and refreshes dull skin.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/product5"
+    },
+    {
+      "id": 6,
+      "name": "Aloe Vera Gel",
+      "description": "Soothes irritation and hydrates skin deeply.",
+      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/product6"
+    },
+    {
+      "id": 7,
+      "name": "Natural Sunscreen",
+      "description": "Protects skin from harmful UV rays naturally.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/product7"
+    },
+    {
+      "id": 8,
+      "name": "Organic Lip Balm",
+      "description": "Keeps lips soft, smooth, and nourished.",
+      "image": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/product8"
+    }
+  ],
+  "brain": [
+    {
+      "id": 1,
+      "name": "Omega-3 Capsules",
+      "description": "Supports memory and overall brain health.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/brain1"
+    },
+    {
+      "id": 2,
+      "name": "Ginkgo Biloba Extract",
+      "description": "Improves concentration and cognitive performance.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/brain2"
+    },
+    {
+      "id": 3,
+      "name": "Ashwagandha Capsules",
+      "description": "Reduces stress and enhances mental focus.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/brain3"
+    },
+    {
+      "id": 4,
+      "name": "Vitamin B Complex",
+      "description": "Boosts energy and supports nerve function.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/brain4"
+    },
+    {
+      "id": 5,
+      "name": "Magnesium Supplement",
+      "description": "Helps relaxation and reduces anxiety naturally.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/brain5"
+    },
+    {
+      "id": 6,
+      "name": "L-Theanine",
+      "description": "Promotes calmness without drowsiness.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/brain6"
+    },
+    {
+      "id": 7,
+      "name": "Rhodiola Rosea",
+      "description": "Fights mental fatigue and boosts energy.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/brain7"
+    },
+    {
+      "id": 8,
+      "name": "Curcumin Extract",
+      "description": "Powerful antioxidant for brain protection.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/brain8"
+    }
+  ],
+  "core": [
+    {
+      "id": 1,
+      "name": "Multivitamin Complex",
+      "description": "Complete daily vitamins and minerals.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/core1"
+    },
+    {
+      "id": 2,
+      "name": "Probiotic Supplement",
+      "description": "Supports digestion and immunity.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/core2"
+    },
+    {
+      "id": 3,
+      "name": "Vitamin D3",
+      "description": "Strengthens bones and boosts mood.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/core3"
+    },
+    {
+      "id": 4,
+      "name": "Zinc Supplement",
+      "description": "Promotes immunity and recovery.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/core4"
+    },
+    {
+      "id": 5,
+      "name": "Iron Capsules",
+      "description": "Prevents fatigue and anemia.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/core5"
+    },
+    {
+      "id": 6,
+      "name": "Collagen Peptides",
+      "description": "Improves skin, hair, and joint health.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/core6"
+    },
+    {
+      "id": 7,
+      "name": "Vitamin C Tablets",
+      "description": "Powerful immunity booster.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/core7"
+    },
+    {
+      "id": 8,
+      "name": "Calcium Supplement",
+      "description": "Strengthens bones and teeth.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/core8"
+    }
+  ],
+  "hormone": [
+    {
+      "id": 1,
+      "name": "Maca Root Capsules",
+      "description": "Supports reproductive health and energy.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/hormone1"
+    },
+    {
+      "id": 2,
+      "name": "Tribulus Terrestris",
+      "description": "Boosts testosterone naturally.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/hormone2"
+    },
+    {
+      "id": 3,
+      "name": "Fenugreek Extract",
+      "description": "Balances hormones and enhances metabolism.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/hormone3"
+    },
+    {
+      "id": 4,
+      "name": "Chasteberry Capsules",
+      "description": "Supports women's hormonal balance.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/hormone4"
+    },
+    {
+      "id": 5,
+      "name": "Evening Primrose Oil",
+      "description": "Helps with PMS and menopause symptoms.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/hormone5"
+    },
+    {
+      "id": 6,
+      "name": "Saw Palmetto Extract",
+      "description": "Supports prostate health in men.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/hormone6"
+    },
+    {
+      "id": 7,
+      "name": "DHEA Supplement",
+      "description": "Promotes hormonal balance and vitality.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/hormone7"
+    },
+    {
+      "id": 8,
+      "name": "Black Cohosh",
+      "description": "Natural remedy for menopause relief.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/hormone8"
+    }
+  ],
+  "miscellaneous": [
+    {
+      "id": 1,
+      "name": "Detox Tea Blend",
+      "description": "Cleanses and refreshes your body naturally.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/misc1"
+    },
+    {
+      "id": 2,
+      "name": "Apple Cider Vinegar Gummies",
+      "description": "Supports digestion and weight balance.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/misc2"
+    },
+    {
+      "id": 3,
+      "name": "Green Superfood Powder",
+      "description": "Boosts energy and provides antioxidants.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/misc3"
+    },
+    {
+      "id": 4,
+      "name": "Electrolyte Drink Mix",
+      "description": "Replenishes hydration and minerals.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/misc4"
+    },
+    {
+      "id": 5,
+      "name": "Organic Herbal Tea",
+      "description": "Relaxing tea blend for better sleep.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/misc5"
+    },
+    {
+      "id": 6,
+      "name": "Bee Pollen Granules",
+      "description": "Rich in vitamins and minerals.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/misc6"
+    },
+    {
+      "id": 7,
+      "name": "Activated Charcoal Capsules",
+      "description": "Supports detox and digestive comfort.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/misc7"
+    },
+    {
+      "id": 8,
+      "name": "Spirulina Tablets",
+      "description": "Superfood packed with protein and antioxidants.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/misc8"
+    }
+  ],
+  "musculoskeletal": [
+    {
+      "id": 1,
+      "name": "Glucosamine Capsules",
+      "description": "Supports joint flexibility and comfort.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/mus1"
+    },
+    {
+      "id": 2,
+      "name": "MSM Powder",
+      "description": "Promotes healthy cartilage and tendons.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/mus2"
+    },
+    {
+      "id": 3,
+      "name": "Turmeric Curcumin",
+      "description": "Powerful anti-inflammatory support.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/mus3"
+    },
+    {
+      "id": 4,
+      "name": "Boswellia Extract",
+      "description": "Supports joint mobility and strength.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/mus4"
+    },
+    {
+      "id": 5,
+      "name": "Calcium & Magnesium",
+      "description": "Strengthens bones and muscles.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/mus5"
+    },
+    {
+      "id": 6,
+      "name": "Collagen Powder",
+      "description": "Supports cartilage, ligaments, and joints.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/mus6"
+    },
+    {
+      "id": 7,
+      "name": "Vitamin K2 + D3",
+      "description": "Supports bone strength and calcium absorption.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/mus7"
+    },
+    {
+      "id": 8,
+      "name": "Hyaluronic Acid",
+      "description": "Lubricates joints and supports mobility.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/mus8"
+    }
+  ],
+  "organ": [
+    {
+      "id": 1,
+      "name": "Milk Thistle Extract",
+      "description": "Supports liver health and detox.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/organ1"
+    },
+    {
+      "id": 2,
+      "name": "CoQ10 Capsules",
+      "description": "Promotes heart and energy function.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/organ2"
+    },
+    {
+      "id": 3,
+      "name": "Cranberry Extract",
+      "description": "Supports urinary tract health.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/organ3"
+    },
+    {
+      "id": 4,
+      "name": "Eye Health Formula",
+      "description": "Protects vision and eye clarity.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/organ4"
+    },
+    {
+      "id": 5,
+      "name": "Kidney Cleanse Tea",
+      "description": "Supports kidney function and detox.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/organ5"
+    },
+    {
+      "id": 6,
+      "name": "Prostate Health Formula",
+      "description": "Supports male urinary health.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/organ6"
+    },
+    {
+      "id": 7,
+      "name": "Heart Healthy Omega-3",
+      "description": "Supports cardiovascular function.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/organ7"
+    },
+    {
+      "id": 8,
+      "name": "Lung Detox Capsules",
+      "description": "Supports respiratory system health.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/organ8"
+    }
+  ],
+  "weight": [
+    {
+      "id": 1,
+      "name": "Green Coffee Extract",
+      "description": "Boosts metabolism and fat burning.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/weight1"
+    },
+    {
+      "id": 2,
+      "name": "Garcinia Cambogia",
+      "description": "Helps control appetite naturally.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/weight2"
+    },
+    {
+      "id": 3,
+      "name": "CLA Softgels",
+      "description": "Supports lean muscle and fat reduction.",
+      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
+      "link": "https://example.com/weight2"
+    }
+  ]
+}
