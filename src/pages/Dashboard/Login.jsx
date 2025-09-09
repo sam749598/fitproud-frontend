@@ -6,19 +6,40 @@ export default function AdminLogin() {
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
+  // const handleLogin = (e) => {
+  //   e.preventDefault();
+    
+  //   // Get password from environment variables
+  //   const adminPassword = import.meta.env.VITE_ADMIN_PASSWORD;
+    
+  //   if (password === adminPassword) {
+  //     localStorage.setItem('adminLoggedIn', 'true');
+  //     navigate('/dashboard/');
+  //   } else {
+  //     setError('Invalid password');
+  //   }
+  // };
+
   const handleLogin = (e) => {
-    e.preventDefault();
-    
-    // Get password from environment variables
-    const adminPassword = import.meta.env.VITE_ADMIN_PASSWORD;
-    
-    if (password === adminPassword) {
-      localStorage.setItem('adminLoggedIn', 'true');
-      navigate('/dashboard/');
-    } else {
-      setError('Invalid password');
-    }
-  };
+  e.preventDefault();
+
+  const adminPassword = import.meta.env.VITE_ADMIN_PASSWORD;
+
+  if (password === adminPassword) {
+    // Save login flag
+    localStorage.setItem('adminLoggedIn', 'true');
+
+    // ✅ Save backend token for API calls
+    localStorage.setItem('adminSecretKey', import.meta.env.VITE_SECRET_KEY);
+
+    navigate('/dashboard/');
+  } else {
+    setError('Invalid password');
+  }
+};
+
+
+
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
