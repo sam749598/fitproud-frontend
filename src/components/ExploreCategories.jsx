@@ -1,10 +1,8 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-<<<<<<< HEAD
+
 // Correct imports from items folder
-=======
-// Correct imports from Items folder
->>>>>>> c2d85c55fbdd4e1652f2956258df68b44b864177
+
 import beautyImg from "../assets/items/beauty.jpg";
 import brainImg from "../assets/items/brain.jpg";
 import coreImg from "../assets/items/core.jpg";
