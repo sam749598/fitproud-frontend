@@ -24,15 +24,14 @@ const Brain = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl font-bold text-gray-800 dark:text-white mb-4 text-center"
+          className="text-4xl font-bold text-gray-800 dark:text-white mb-4 text-center pt-5"
         >
         <h1>Brain and Mental Wellness</h1> 
         </motion.h1>
 
         {/* SEO Description */}
         <p className="text-center text-gray-600 dark:text-gray-300 mb-12 max-w-2xl mx-auto">
-          Discover our hand-picked beauty and skincare supplements to enhance
-          your natural glow, improve skin health, and maintain youthful vitality.
+          Support your mind and emotional balance with nootropics and stress-relief supplements. These products are crafted to boost focus, memory, and mental clarity while reducing anxiety and fatigue. Whether you’re studying, working long hours, or managing stress, our brain health and relaxation solutions help improve concentration and mood naturally. Achieve peak mental performance and enjoy calmer, more productive days with targeted nutrients for cognitive wellness and emotional balance.
         </p>
         {/* product */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">

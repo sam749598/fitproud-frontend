@@ -25,15 +25,14 @@ const Organ = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl font-bold text-gray-800 dark:text-white mb-4 text-center"
+          className="text-4xl font-bold text-gray-800 dark:text-white mb-4 text-center pt-5"
         >
          Organ Specific Support
         </motion.h1>
 
         {/* SEO Description */}
         <p className="text-center text-gray-600 dark:text-gray-300 mb-12 max-w-2xl mx-auto">
-          Discover our hand-picked beauty and skincare supplements to enhance
-          your natural glow, improve skin health, and maintain youthful vitality.
+          Give targeted care to vital organs with supplements that protect urinary health, vision, prostate function, and circulatory strength. This category includes products that improve eye health, reduce urinary tract discomfort, and support prostate wellness, along with formulas that strengthen veins and circulation. By focusing on specific organs, these natural solutions help you maintain long-term vitality and address common health concerns with precision.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {products.map((product, index) => (

@@ -21,15 +21,14 @@ const Beauty = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl font-bold text-gray-800 dark:text-white mb-4 text-center"
+          className="text-4xl font-bold text-gray-800 dark:text-white mb-4 text-center pt-5"
         >
           Beauty & Skin Care
         </motion.h1>
 
         {/* SEO Description */}
         <p className="text-center text-gray-600 dark:text-gray-300 mb-12 max-w-2xl mx-auto">
-          Discover our hand-picked beauty and skincare supplements to enhance
-          your natural glow, improve skin health, and maintain youthful vitality.
+          Discover natural supplements that nourish your skin, hair, and overall beauty. From anti-aging collagen boosters to acne-fighting formulas and hair growth support, these products are designed to enhance your appearance from the inside out. Whether you’re struggling with hair loss, acne, or simply want youthful, glowing skin, our beauty and skincare solutions use clinically backed ingredients for visible results. Look good, feel confident, and embrace natural radiance every day.
         </p>
 
         {/* Product Grid */}

@@ -24,15 +24,14 @@ const Weight = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl font-bold text-gray-800 dark:text-white mb-4 text-center"
+          className="text-4xl font-bold text-gray-800 dark:text-white mb-4 text-center pt-5"
         >
          Weight and Metabolism
         </motion.h1>
 
         {/* SEO Description */}
         <p className="text-center text-gray-600 dark:text-gray-300 mb-12 max-w-2xl mx-auto">
-          Discover our hand-picked beauty and skincare supplements to enhance
-          your natural glow, improve skin health, and maintain youthful vitality.
+          Achieve your fitness goals with supplements that accelerate fat burning, support ketosis, and boost metabolism. From appetite suppressants to energy-boosting pre-workout formulas, this category offers everything you need for weight loss and performance. Whether you’re following a ketogenic diet, looking to control cravings, or aiming to build lean muscle, our weight and metabolism products help you burn calories efficiently and maintain a healthy, active lifestyle.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {products.map((product, index) => (

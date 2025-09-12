@@ -24,15 +24,14 @@ const Musculoskeletal = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl font-bold text-gray-800 dark:text-white mb-4 text-center"
+          className="text-4xl font-bold text-gray-800 dark:text-white mb-4 text-center pt-5"
         >
           Musculoskeletal and Mobility
         </motion.h1>
 
         {/* SEO Description */}
         <p className="text-center text-gray-600 dark:text-gray-300 mb-12 max-w-2xl mx-auto">
-          Discover our hand-picked beauty and skincare supplements to enhance
-          your natural glow, improve skin health, and maintain youthful vitality.
+          Support strong bones, healthy joints, and improved flexibility with our musculoskeletal wellness supplements. Whether you’re an athlete, dealing with stiffness, or looking to prevent joint discomfort, these products enhance mobility and reduce inflammation. With natural ingredients that protect cartilage and support long-term joint health, this category is perfect for staying active and maintaining physical independence. Move freely and enjoy life without pain or restrictions.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {products.map((product, index) => (

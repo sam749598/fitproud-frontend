@@ -2,430 +2,426 @@
   "beauty": [
     {
       "id": 1,
-      "name": "Radiant Glow Serum",
-      "description": "Boosts skin brightness and reduces dark spots naturally.",
-      "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/product1"
+      "name": "Folicerin - Natural Hair Loss Supplement",
+      "description": "Folicerin helps combat hair thinning and promotes natural regrowth with scientifically proven ingredients.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513298/beauty_1_vfjm5c.jpg",
+      "link": "https://nplink.net/ftunu0o9"
     },
     {
       "id": 2,
-      "name": "Hydra Moisturizer",
-      "description": "Deep hydration formula for soft and supple skin.",
-      "image": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/product2"
+      "name": "Folisin - Advanced Hair Growth Formula",
+      "description": "Folisin supports men’s hair growth, reduces hair loss, and strengthens follicles naturally.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513299/beauty_2_pbvjp5.jpg",
+      "link": "https://nplink.net/nchusz7y"
     },
     {
       "id": 3,
-      "name": "Anti-Aging Cream",
-      "description": "Reduces fine lines and improves skin elasticity.",
-      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/product3"
+      "name": "Locerin - Hair Growth Support for Women",
+      "description": "Locerin is a women’s hair growth supplement designed to improve shine, strength, and thickness.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513298/beauty_3_y8eqht.jpg",
+      "link": "https://nplink.net/ykypludn"
     },
     {
       "id": 4,
-      "name": "Vitamin C Face Wash",
-      "description": "Cleanses impurities and brightens skin tone.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/product4"
+      "name": "Collagen Select - Anti-Aging Collagen Booster",
+      "description": "Collagen Select boosts collagen production to reduce wrinkles, improve skin elasticity, and slow aging.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513298/beauty_4_gynn3k.jpg",
+      "link": "https://nplink.net/hjlru9ly"
     },
     {
       "id": 5,
-      "name": "Herbal Face Mask",
-      "description": "Rejuvenates and refreshes dull skin.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/product5"
+      "name": "Nonacne - Natural Acne Treatment",
+      "description": "Nonacne fights acne from the inside out with herbal extracts that reduce breakouts and inflammation.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513298/beauty_5_ymutv5.jpg",
+      "link": "https://nplink.net/wf4nzpt6"
     },
     {
       "id": 6,
-      "name": "Aloe Vera Gel",
-      "description": "Soothes irritation and hydrates skin deeply.",
-      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/product6"
+      "name": "Profolan - Men’s Hair Loss Solution",
+      "description": "Profolan combines natural extracts to stop hair loss and stimulate regrowth in men.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513298/beauty_6_p5ibb7.jpg",
+      "link": "https://nplink.net/0ef9h3dp"
     },
     {
       "id": 7,
-      "name": "Natural Sunscreen",
-      "description": "Protects skin from harmful UV rays naturally.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/product7"
+      "name": "Zinamax - Clear Skin Acne Support",
+      "description": "Zinamax supports clear skin with antioxidants and nutrients that fight acne-causing bacteria.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513299/beauty_7_hoeq5i.jpg",
+      "link": "https://nplink.net/9oygt959"
     },
     {
       "id": 8,
-      "name": "Organic Lip Balm",
-      "description": "Keeps lips soft, smooth, and nourished.",
-      "image": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/product8"
+      "name": "Bravona Forte - Breast Enhancement Formula",
+      "description": "Bravona Forte naturally enhances breast size, firmness, and appearance for women.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513299/beauty_8_sspcdj.jpg",
+      "link": "https://nplink.net/7zbilh0d"
     }
   ],
   "brain": [
     {
       "id": 1,
-      "name": "Omega-3 Capsules",
-      "description": "Supports memory and overall brain health.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/brain1"
+      "name": "Brain Actives - Nootropic for Focus & Memory",
+      "description": "Brain Actives boosts memory, focus, and energy, ideal for students and professionals.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513334/brain_1_kkvsau.jpg",
+      "link": "https://nplink.net/tmieaosw"
     },
     {
       "id": 2,
-      "name": "Ginkgo Biloba Extract",
-      "description": "Improves concentration and cognitive performance.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/brain2"
+      "name": "NuviaLab Relax - Stress & Mood Support",
+      "description": "NuviaLab Relax promotes relaxation, reduces tension, and supports mental well-being.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513333/brain_2_sp0zij.jpg",
+      "link": "https://nplink.net/d9g9h1fe"
     },
     {
       "id": 3,
-      "name": "Ashwagandha Capsules",
-      "description": "Reduces stress and enhances mental focus.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/brain3"
-    },
-    {
-      "id": 4,
-      "name": "Vitamin B Complex",
-      "description": "Boosts energy and supports nerve function.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/brain4"
-    },
-    {
-      "id": 5,
-      "name": "Magnesium Supplement",
-      "description": "Helps relaxation and reduces anxiety naturally.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/brain5"
-    },
-    {
-      "id": 6,
-      "name": "L-Theanine",
-      "description": "Promotes calmness without drowsiness.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/brain6"
-    },
-    {
-      "id": 7,
-      "name": "Rhodiola Rosea",
-      "description": "Fights mental fatigue and boosts energy.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/brain7"
-    },
-    {
-      "id": 8,
-      "name": "Curcumin Extract",
-      "description": "Powerful antioxidant for brain protection.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/brain8"
+      "name": "Restilen - Natural Stress Relief",
+      "description": "Restilen reduces stress, anxiety, and fatigue using natural adaptogens and calming extracts.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513333/brain_3_qaxk29.jpg",
+      "link": "https://nplink.net/0im5m9z4"
     }
   ],
   "core": [
     {
       "id": 1,
-      "name": "Multivitamin Complex",
-      "description": "Complete daily vitamins and minerals.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/core1"
+      "name": "EnduNAD - Longevity & Anti-Aging Support",
+      "description": "EnduNAD supports cellular repair, longevity, and anti-aging with NAD+ precursors.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513364/core_1_xqrztz.jpg",
+      "link": "https://nplink.net/zpg6kfhr"
     },
     {
       "id": 2,
-      "name": "Probiotic Supplement",
-      "description": "Supports digestion and immunity.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/core2"
+      "name": "Lipid Control Plus - Cholesterol Support",
+      "description": "Lipid Control Plus helps balance cholesterol levels and supports heart health.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513364/core_2_elzm2x.jpg",
+      "link": "https://nplink.net/n56seh0i"
     },
     {
       "id": 3,
-      "name": "Vitamin D3",
-      "description": "Strengthens bones and boosts mood.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/core3"
+      "name": "NuviaLab Immune - Immunity Booster",
+      "description": "NuviaLab Immune strengthens immunity and helps protect against infections naturally.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513364/core_3_rn7sk0.jpg",
+      "link": "https://nplink.net/93o2a6lu"
     },
     {
       "id": 4,
-      "name": "Zinc Supplement",
-      "description": "Promotes immunity and recovery.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/core4"
+      "name": "Spirulin Plus - Natural Colon Cleansing",
+      "description": "Spirulin Plus aids digestion, detoxifies the body, and supports colon health.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513365/core_4_h62gat.jpg",
+      "link": "https://nplink.net/dtwn9new"
     },
     {
       "id": 5,
-      "name": "Iron Capsules",
-      "description": "Prevents fatigue and anemia.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/core5"
+      "name": "Fibre Select - Digestive & Colon Cleanser",
+      "description": "Fibre Select improves digestion, reduces bloating, and supports weight management.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513365/core_5_o2cbci.jpg",
+      "link": "https://nplink.net/net7wudn"
     },
     {
       "id": 6,
-      "name": "Collagen Peptides",
-      "description": "Improves skin, hair, and joint health.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/core6"
-    },
-    {
-      "id": 7,
-      "name": "Vitamin C Tablets",
-      "description": "Powerful immunity booster.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/core7"
-    },
-    {
-      "id": 8,
-      "name": "Calcium Supplement",
-      "description": "Strengthens bones and teeth.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/core8"
+      "name": "Thyrolin - Thyroid Function Support",
+      "description": "Thyrolin promotes healthy thyroid function, energy levels, and metabolism balance.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513365/core_6_csjikc.jpg",
+      "link": "https://nplink.net/7h7aenih"
     }
   ],
+
   "hormone": [
     {
       "id": 1,
-      "name": "Maca Root Capsules",
-      "description": "Supports reproductive health and energy.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/hormone1"
+      "name": "Eron Plus - Natural Male Potency Support",
+      "description": "Eron Plus helps fight erectile dysfunction and improves male potency naturally.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513415/hormonal_1_yfrapm.jpg",
+      "link": "https://nplink.net/wd4dtdpy"
     },
     {
       "id": 2,
-      "name": "Tribulus Terrestris",
-      "description": "Boosts testosterone naturally.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/hormone2"
+      "name": "Expansil Cream - Male Enhancement Cream",
+      "description": "Expansil Cream increases blood flow and helps support male enhancement naturally.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513415/hormonal_2_fbvmv8.jpg",
+      "link": "https://nplink.net/24dpbaet"
     },
     {
       "id": 3,
-      "name": "Fenugreek Extract",
-      "description": "Balances hormones and enhances metabolism.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/hormone3"
+      "name": "Femin Plus - Female Libido Enhancer",
+      "description": "Femin Plus boosts female libido, enhances sexual satisfaction, and supports hormonal balance.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513416/hormonal_3_silrnm.jpg",
+      "link": "https://nplink.net/lh98h6s1"
     },
     {
       "id": 4,
-      "name": "Chasteberry Capsules",
-      "description": "Supports women's hormonal balance.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/hormone4"
+      "name": "GigantX - Male Performance Booster",
+      "description": "GigantX enhances male sexual performance, stamina, and confidence.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513416/hormonal_4_bpbp6q.jpg",
+      "link": "https://nplink.net/h7dn681p"
     },
     {
       "id": 5,
-      "name": "Evening Primrose Oil",
-      "description": "Helps with PMS and menopause symptoms.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/hormone5"
+      "name": "Member XXL - Penis Enlargement Supplement",
+      "description": "Member XXL is a natural supplement designed to increase penis size and performance.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513416/hormonal_5_ejtim0.jpg",
+      "link": "https://nplink.net/fteogam7"
     },
     {
       "id": 6,
-      "name": "Saw Palmetto Extract",
-      "description": "Supports prostate health in men.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/hormone6"
+      "name": "NuviaLab Vitality - Men’s Health & Energy",
+      "description": "NuviaLab Vitality boosts male energy, libido, and hormonal balance naturally.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513417/hormonal_6_tkwqht.jpg",
+      "link": "https://nplink.net/4jzud8ya"
     },
     {
       "id": 7,
-      "name": "DHEA Supplement",
-      "description": "Promotes hormonal balance and vitality.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/hormone7"
+      "name": "NuviaLab Meno - Menopause Relief Formula",
+      "description": "NuviaLab Meno reduces menopause symptoms like hot flashes, mood swings, and fatigue.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513418/hormonal_7_pfrvsj.jpg",
+      "link": "https://nplink.net/420ljhhn"
     },
     {
       "id": 8,
-      "name": "Black Cohosh",
-      "description": "Natural remedy for menopause relief.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/hormone8"
+      "name": "Prenatalin - Prenatal Care Vitamins",
+      "description": "Prenatalin provides essential nutrients for pregnancy, supporting both mother and baby.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513418/hormonal_8_rlywe7.jpg",
+      "link": "https://nplink.net/nsbihid4"
+    },
+    {
+      "id": 9,
+      "name": "Semaxin - Male Fertility Support",
+      "description": "Semaxin supports male fertility, improves sperm quality, and boosts sexual vitality.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513419/hormonal_9_nvnzaq.jpg",
+      "link": "https://nplink.net/nw59r4lw"
     }
   ],
   "miscellaneous": [
     {
       "id": 1,
-      "name": "Detox Tea Blend",
-      "description": "Cleanses and refreshes your body naturally.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/misc1"
+      "name": "Snoran Plus - Stop Snoring Naturally",
+      "description": "Snoran Plus reduces snoring naturally and improves sleep quality for better rest.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513445/miscell_1_akwal2.jpg",
+      "link": "https://nplink.net/sfs7m7gl"
     },
     {
       "id": 2,
-      "name": "Apple Cider Vinegar Gummies",
-      "description": "Supports digestion and weight balance.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/misc2"
+      "name": "Dentolan - Fresh Breath Supplement",
+      "description": "Dentolan freshens breath from within by neutralizing odor-causing bacteria.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513445/miscell_2_gwmgou.jpg",
+      "link": "https://nplink.net/bhh7c6dn"
     },
     {
       "id": 3,
-      "name": "Green Superfood Powder",
-      "description": "Boosts energy and provides antioxidants.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/misc3"
+      "name": "NuviaLab Flex - Joint Mobility Formula",
+      "description": "NuviaLab Flex improves mobility, strengthens joints, and reduces stiffness.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757574008/miscell_3_v73ngr.jpg",
+      "link": "https://nplink.net/soe58us2"
     },
     {
       "id": 4,
-      "name": "Electrolyte Drink Mix",
-      "description": "Replenishes hydration and minerals.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/misc4"
+      "name": "Flexomore - Joint Health Support",
+      "description": "Flexomore relieves joint pain and supports long-term joint flexibility.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757574572/miscell_4_pfykwt.jpg",
+      "link": "https://nplink.net/187tfaud"
     },
     {
       "id": 5,
-      "name": "Organic Herbal Tea",
-      "description": "Relaxing tea blend for better sleep.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/misc5"
-    },
-    {
-      "id": 6,
-      "name": "Bee Pollen Granules",
-      "description": "Rich in vitamins and minerals.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/misc6"
-    },
-    {
-      "id": 7,
-      "name": "Activated Charcoal Capsules",
-      "description": "Supports detox and digestive comfort.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/misc7"
-    },
-    {
-      "id": 8,
-      "name": "Spirulina Tablets",
-      "description": "Superfood packed with protein and antioxidants.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/misc8"
+      "name": "ProFlexen - Complete Joint Care",
+      "description": "ProFlexen supports cartilage health, reduces inflammation, and protects mobility.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757574572/miscell_5_la8jlm.jpg",
+      "link": "https://nplink.net/77cg959g"
     }
+    
   ],
   "musculoskeletal": [
     {
       "id": 1,
-      "name": "Glucosamine Capsules",
-      "description": "Supports joint flexibility and comfort.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/mus1"
+      "name": "ProFlexen - Complete Joint Care",
+      "description": "ProFlexen supports cartilage health, reduces inflammation, and protects mobility.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513465/musculo_1_bbjcse.jpg",
+      "link": "https://nplink.net/77cg959g"
     },
     {
       "id": 2,
-      "name": "MSM Powder",
-      "description": "Promotes healthy cartilage and tendons.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/mus2"
+      "name": "Flexomore - Joint Health Support",
+      "description": "Flexomore relieves joint pain and supports long-term joint flexibility.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513466/musculo_2_zsfqir.jpg",
+      "link": "https://nplink.net/187tfaud"
     },
     {
       "id": 3,
-      "name": "Turmeric Curcumin",
-      "description": "Powerful anti-inflammatory support.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/mus3"
-    },
-    {
-      "id": 4,
-      "name": "Boswellia Extract",
-      "description": "Supports joint mobility and strength.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/mus4"
-    },
-    {
-      "id": 5,
-      "name": "Calcium & Magnesium",
-      "description": "Strengthens bones and muscles.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/mus5"
-    },
-    {
-      "id": 6,
-      "name": "Collagen Powder",
-      "description": "Supports cartilage, ligaments, and joints.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/mus6"
-    },
-    {
-      "id": 7,
-      "name": "Vitamin K2 + D3",
-      "description": "Supports bone strength and calcium absorption.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/mus7"
-    },
-    {
-      "id": 8,
-      "name": "Hyaluronic Acid",
-      "description": "Lubricates joints and supports mobility.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/mus8"
+      "name": "NuviaLab Flex - Joint Mobility Formula",
+      "description": "NuviaLab Flex improves mobility, strengthens joints, and reduces stiffness.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513466/musculo_3_l3yhf3.jpg",
+      "link": "https://nplink.net/soe58us2"
     }
   ],
+
   "organ": [
     {
       "id": 1,
-      "name": "Milk Thistle Extract",
-      "description": "Supports liver health and detox.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/organ1"
+      "name": "Eyevita Plus - Vision & Eye Health",
+      "description": "Eyevita Plus supports healthy vision, reduces eye fatigue, and protects against aging.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513491/organ_1_egq424.jpg",
+      "link": "https://nplink.net/84ld1ai0"
     },
     {
       "id": 2,
-      "name": "CoQ10 Capsules",
-      "description": "Promotes heart and energy function.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/organ2"
+      "name": "Uticarin - Urinary Tract Support",
+      "description": "Uticarin promotes urinary tract health and reduces discomfort from infections.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513492/organ_3_xiecx0.jpg",
+      "link": "https://nplink.net/n7mdneh9"
     },
     {
       "id": 3,
-      "name": "Cranberry Extract",
-      "description": "Supports urinary tract health.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/organ3"
-    },
-    {
-      "id": 4,
-      "name": "Eye Health Formula",
-      "description": "Protects vision and eye clarity.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/organ4"
-    },
-    {
-      "id": 5,
-      "name": "Kidney Cleanse Tea",
-      "description": "Supports kidney function and detox.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/organ5"
-    },
-    {
-      "id": 6,
-      "name": "Prostate Health Formula",
-      "description": "Supports male urinary health.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/organ6"
-    },
-    {
-      "id": 7,
-      "name": "Heart Healthy Omega-3",
-      "description": "Supports cardiovascular function.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/organ7"
-    },
-    {
-      "id": 8,
-      "name": "Lung Detox Capsules",
-      "description": "Supports respiratory system health.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/organ8"
+      "name": "Varicorin - Varicose Veins Support",
+      "description": "Varicorin strengthens veins, reduces varicose veins, and supports blood circulation.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513493/organ_4_tsszvm.jpg",
+      "link": "https://nplink.net/7lwa3uht"
     }
   ],
   "weight": [
     {
       "id": 1,
-      "name": "Green Coffee Extract",
-      "description": "Boosts metabolism and fat burning.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/weight1"
+      "name": "Mass Extreme - Muscle Building Formula",
+      "description": "Mass Extreme promotes rapid muscle growth and workout recovery.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513522/weight_1_kbdsig.jpg",
+      "link": "https://nplink.net/ub24o5ga"
     },
     {
       "id": 2,
-      "name": "Garcinia Cambogia",
-      "description": "Helps control appetite naturally.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/weight2"
+      "name": "African Mango - Natural Fat Burner",
+      "description": "African Mango helps burn fat, reduce appetite, and support metabolism.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513523/weight_1_houu6v.png",
+      "link": "https://nplink.net/7jozb09o"
     },
     {
       "id": 3,
-      "name": "CLA Softgels",
-      "description": "Supports lean muscle and fat reduction.",
-      "image": "https://images.unsplash.com/photo-1556228578-9cfc4f0d6c0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=300&q=80",
-      "link": "https://example.com/weight2"
+      "name": "Nutrigo Lab Burner - Pre-Workout Fat Burner",
+      "description": "Nutrigo Lab Burner is a pre-workout fat burner designed to maximize calorie burn.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513523/weight_2_pvnjlm.jpg",
+      "link": "https://nplink.net/cj512a5l"
+    },
+    {
+      "id": 4,
+      "name": "Nutrigo Lab Strength - Bodybuilding Support",
+      "description": "Nutrigo Lab Strength boosts strength, endurance, and performance for athletes.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513525/weight_3_iilo4s.jpg",
+      "link": "https://nplink.net/jnhwp9zp"
+    },
+    {
+      "id": 5,
+      "name": "Piperinox - Slimming & Metabolism Booster",
+      "description": "Piperinox enhances metabolism and supports weight loss with black pepper extract.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513525/weight_4_jo8boi.jpg",
+      "link": "https://nplink.net/n2cu3274"
+    },
+    {
+      "id": 6,
+      "name": "Probiosin Plus - Probiotic Weight Loss",
+      "description": "Probiosin Plus combines probiotics with weight loss support for digestive health.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513527/weight_5_aikinp.jpg",
+      "link": "https://nplink.net/kda1kpg2"
+    },
+    {
+      "id": 7,
+      "name": "Silvets - Weight Loss & Energy Booster",
+      "description": "Silvets supports weight loss, energy, and fat metabolism naturally.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513528/weight_6_biljob.jpg",
+      "link": "https://nplink.net/e9zhrlnk"
+    },
+    {
+      "id": 8,
+      "name": "Acai Berry Extreme - Antioxidant Weight Loss",
+      "description": "Acai Berry Extreme aids weight loss with antioxidants that boost metabolism.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513529/weight_7_ajo3gz.jpg",
+      "link": "https://nplink.net/815g8yg4"
+    },
+    {
+      "id": 9,
+      "name": "Bulk Extreme - Muscle Mass Gainer",
+      "description": "Bulk Extreme increases muscle mass and strength for bodybuilding goals.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513530/weight_8_t4jl7f.jpg",
+      "link": "https://nplink.net/okrjyskb"
+    },
+    {
+      "id": 10,
+      "name": "Cappuccino MCT - Weight Loss Coffee",
+      "description": "Cappuccino MCT is a weight loss coffee that boosts fat metabolism and energy levels.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513531/weight_9_ibcu08.jpg",
+      "link": "https://nplink.net/949h9ynp"
+    },
+    {
+      "id": 11,
+      "name": "Crave Burner - Appetite Suppressant",
+      "description": "Crave Burner controls appetite, reduces cravings, and supports healthy weight management.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513535/weight_10_cx4yi9.jpg",
+      "link": "https://nplink.net/mlh23d4h"
+    },
+    {
+      "id": 12,
+      "name": "Fat Burn Active - Thermogenic Fat Burner",
+      "description": "Fat Burn Active boosts thermogenesis, energy, and fat oxidation for faster weight loss.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513533/weight_11_vbbhys.jpg",
+      "link": "https://nplink.net/g2kdgsuh"
+    },
+    {
+      "id": 13,
+      "name": "Green Coffee 5K - Weight Loss Coffee Extract",
+      "description": "Green Coffee 5K promotes fat loss with high-strength green coffee bean extract.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513534/weight_12_qib5ox.jpg",
+      "link": "https://nplink.net/7d6pk215"
+    },
+    {
+      "id": 14,
+      "name": "Matcha Extreme - Weight Loss Formula",
+      "description": "Matcha Extreme enhances metabolism, burns fat, and boosts energy with matcha extract.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513535/weight_13_yy1dr9.jpg",
+      "link": "https://nplink.net/ubfcsi6l"
+    },
+    {
+      "id": 15,
+      "name": "Meltamin - Weight Management Support",
+      "description": "Meltamin accelerates weight loss with active ingredients that boost metabolism.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513537/weight_14_dmsezx.jpg",
+      "link": "https://nplink.net/5t7t43oj"
+    },
+    {
+      "id": 16,
+      "name": "Moringa Actives - Weight Loss Aid",
+      "description": "Moringa Actives reduces fat storage, supports metabolism, and balances blood sugar.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513538/weight_15_b7eek5.jpg",
+      "link": "https://nplink.net/dje4p6uf"
+    },
+    {
+      "id": 17,
+      "name": "Night Mega Burner - Nighttime Fat Burner",
+      "description": "Night Mega Burner promotes fat burning overnight while improving sleep quality.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513540/weight_16_a2x3pc.jpg",
+      "link": "https://nplink.net/5lu4zu9f"
+    },
+    {
+      "id": 18,
+      "name": "NuviaLab Keto - Keto Weight Loss Support",
+      "description": "NuviaLab Keto supports ketosis and fat burning for ketogenic diet success.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513541/weight_17_jcjacg.jpg",
+      "link": "https://nplink.net/n7ftr77e"
+    },
+    {
+      "id": 19,
+      "name": "Fast Burn Extreme - Rapid Fat Loss Support",
+      "description": "Fast Burn Extreme accelerates fat loss with multi-active thermogenic ingredients.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513543/weight_18_gepumm.jpg",
+      "link": "https://nplink.net/7asc02um"
+    },
+    {
+      "id": 20,
+      "name": "Green Barley Plus - Detox & Weight Loss",
+      "description": "Green Barley Plus detoxifies, improves digestion, and supports natural fat loss.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513544/weight_19_zbgxbc.jpg",
+      "link": "https://nplink.net/0wzndikr"
+    },
+    {
+      "id": 21,
+      "name": "Keto Actives - Keto Fat Burning Support",
+      "description": "Keto Actives accelerates fat loss and supports ketosis in low-carb diets.",
+      "image": "https://res.cloudinary.com/ddyyhjgpg/image/upload/v1757513545/weight_20_rl3s5l.jpg",
+      "link": "https://nplink.net/kmhzp17j"
     }
   ]
 }

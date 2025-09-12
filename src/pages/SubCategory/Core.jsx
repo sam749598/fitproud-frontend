@@ -21,15 +21,14 @@ const Core = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl font-bold text-gray-800 dark:text-white mb-4 text-center"
+          className="text-4xl font-bold text-gray-800 dark:text-white mb-4 text-center pt-5"
         >
           Core Health
         </motion.h1>
 
         {/* SEO Description */}
         <p className="text-center text-gray-600 dark:text-gray-300 mb-12 max-w-2xl mx-auto">
-          Discover our hand-picked beauty and skincare supplements to enhance
-          your natural glow, improve skin health, and maintain youthful vitality.
+          Maintain your foundation of health with supplements that strengthen immunity, balance cholesterol, support thyroid function, and promote digestive health. These daily wellness solutions are designed to keep your body functioning at its best. From detox cleansers to immune boosters, each product helps protect long-term vitality. If you’re seeking natural support for your metabolism, energy, or overall well-being, our core health range ensures your body gets the care it deserves.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {products.map((product, index) => (

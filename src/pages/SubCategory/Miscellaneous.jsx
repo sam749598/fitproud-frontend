@@ -24,15 +24,14 @@ const { defaultTitle } = useOutletContext();
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl font-bold text-gray-800 dark:text-white mb-4 text-center"
+          className="text-4xl font-bold text-gray-800 dark:text-white mb-4 text-center pt-5"
         >
           Miscellaneous
         </motion.h1>
 
         {/* SEO Description */}
         <p className="text-center text-gray-600 dark:text-gray-300 mb-12 max-w-2xl mx-auto">
-          Discover our hand-picked beauty and skincare supplements to enhance
-          your natural glow, improve skin health, and maintain youthful vitality.
+          Explore unique health solutions that address everyday concerns beyond the basics. This category includes products for fresh breath, reducing snoring, and other targeted needs. Designed with natural ingredients and innovative formulas, these supplements improve quality of life in simple yet effective ways. If you’re seeking relief from snoring, fresher breath, or other niche concerns, our miscellaneous range provides practical wellness support tailored to your lifestyle.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {products.map((product, index) => (
