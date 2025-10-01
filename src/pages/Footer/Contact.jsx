@@ -75,7 +75,7 @@ const Contact = () => {
       </section>
 
       {/* Map / Footer CTA */}
-      <section className="bg-indigo-600 text-white py-16 px-4 text-center rounded-t-3xl">
+      <section className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white py-16 px-4 text-center">
         <h2 className="text-3xl font-bold mb-4">We’re Here For You</h2>
         <p className="mb-6 max-w-xl mx-auto">
           Whether you have a question, feedback, or want to collaborate, we are always open to hearing from you.

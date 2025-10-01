@@ -2,7 +2,7 @@ import React from "react";
 
 const Disclaimers = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 dark:from-slate-900 dark:to-slate-950 text-slate-800 dark:text-slate-100 py-20 px-6 transition-colors duration-300">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-green-200 dark:from-slate-900 dark:to-slate-950 text-slate-800 dark:text-slate-100 py-20 px-6 transition-colors duration-300">
       <div className="max-w-5xl mx-auto">
         {/* Page Header */}
         <div className="text-center mb-16">
@@ -91,16 +91,7 @@ const Disclaimers = () => {
             </div>
           ))}
         </div>
-        
-        {/* Footer Note */}
-        <div className="mt-16 pt-8 border-t border-slate-200 dark:border-slate-700 text-center">
-          <p className="text-sm text-slate-500 dark:text-slate-400">
-            This disclaimer was last updated on August 2025
-          </p>
-          <p className="mt-2 text-slate-500 dark:text-slate-400">
-            © {new Date().getFullYear()} Your Company. All rights reserved.
-          </p>
-        </div>
+
       </div>
     </div>
   );

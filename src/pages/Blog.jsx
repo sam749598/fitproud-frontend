@@ -73,7 +73,7 @@ export default function Blog() {
   }
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
+    <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 bg-teal-50 mt-5">
       <div className="text-center">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}

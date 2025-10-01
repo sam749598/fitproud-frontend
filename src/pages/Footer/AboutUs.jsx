@@ -33,7 +33,7 @@ const AboutUs = () => {
       </section>
 
   
-     <section className="bg-gradient-to-r from-purple-600 to-indigo-700 text-white py-16 px-4 text-center rounded-t-3xl">
+     <section className="bg-gradient-to-r from-purple-600 to-indigo-700 text-white py-16 px-4 text-center">
      <h2 className="text-3xl font-bold mb-4">Join Us</h2>
     <p className="mb-6 max-w-xl mx-auto">
     Stay updated with the latest wellness tips, health guides, and exclusive content by subscribing to our newsletter.

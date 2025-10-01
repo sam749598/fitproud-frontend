@@ -1,17 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaFacebookF, FaTwitter, FaInstagramSquare, FaPinterest  } from "react-icons/fa";
-import FitPro from "../assets/fitpro.jpg";
+import vitaProzen from "../assets/vitaprozen.jpg";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-200 text-gray-900 py-12 mt-50">
+    <footer className="bg-[#FFF4EA] text-gray-900 py-12 mt-50">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
         
         {/* Section 1: Logo & Description */}
         <div>
-          <h2 className="text-2xl font-bold mb-4">FitProud</h2>
-          <img src={FitPro} alt="FitProud Logo" className="h-15 rounded-sm" />
+          <h2 className="text-2xl font-bold mb-4">VitaProZen</h2>
+          <Link to="/">
+          <img src={vitaProzen} alt="FitProud Logo"
+         className="h-15 rounded-sm" />
+          </Link>
           <p className="text-sm mt-5">
             Your trusted source for nutrition,<br/> health, and wellness tips to help <br/>you live a balanced life.
           </p>
@@ -92,7 +95,7 @@ const Footer = () => {
             />
             <button
               type="submit"
-              className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-r"
+              className="bg-red-600 hover:bg-red-700 text-white px-4 py-2"
             >
               Subscribe
             </button>
@@ -103,7 +106,7 @@ const Footer = () => {
       <hr className="border-t max-w-7xl mx-auto border-slate-500 dark:border-gray-700 mt-15" />
 
       <div className="text-center text-gray-500 text-sm mt-10">
-        &copy; {new Date().getFullYear()} FitProud. All rights reserved.
+        &copy; {new Date().getFullYear()} VitaProZen. All rights reserved.
       </div>
     </footer>
   );

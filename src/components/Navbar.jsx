@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import fitPro from "../assets/fitpro.jpg"
+import vitaProzen from "../assets/vitaprozen.jpg";
 
 const subCategories = [
   { name: "Beauty & Skin Care", slug: "beauty" },
@@ -18,12 +18,12 @@ export default function Navbar() {
   const [isCategoryOpen, setIsCategoryOpen] = useState(false); // mobile category dropdown
 
   return (
-    <nav className="bg-gray-200 shadow-md dark:bg-gray-900">
+    <nav className="bg-[#FFF4EA] shadow-md dark:bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16 items-center">
+        <div className="flex justify-between h-20 items-center max-w-5xl">
           {/* Logo */}
           <Link to="/" className="text-xl font-bold text-gray-800 dark:text-white">
-           <img src={fitPro}  alt="FitPro Logo" className=" h-13 rounded-sm"/>
+           <img src={vitaProzen}  alt="vitaprozen Logo" className=" h-13 rounded-sm"/>
           </Link>
 
           {/* Desktop Menu */}
@@ -33,7 +33,7 @@ export default function Navbar() {
             {/* Desktop Category Dropdown */}
             <div className="relative group">
               <Link to="/category" className="hover:text-blue-500">Category</Link>
-              <div className="absolute left-0 mt-2 w-64 bg-white dark:bg-gray-800 shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+              <div className="absolute left-0 mt-2 w-64 bg-teal-50 dark:bg-gray-800 shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                 <ul className="py-2">
                   {subCategories.map(({ name, slug }) => (
                     <li key={slug}>
