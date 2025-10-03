@@ -11,7 +11,7 @@ import fitness8 from "../assets/fitness/fitness8.jpg";
 const slides = [
   {
     image: fitness1,
-    title1: "Welcome to FitPro",
+    title1: "Welcome to VitaProZen",
     title2: "Your Health, Our Priority",
     description: "Discover the best wellness products tailored for your needs.",
   },
