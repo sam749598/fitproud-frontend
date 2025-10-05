@@ -27,3 +27,120 @@
   /* 5 products * 2 = 10 items */
   width: calc(200px * 10 + 1.5rem * 10);
 }
+
+
+/* Headings inside Jodit */
+.jodit-wysiwyg h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin: 0.5em 0;
+}
+
+.jodit-wysiwyg h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0.5em 0;
+}
+
+.jodit-wysiwyg h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #444;
+  margin: 0.5em 0;
+}
+
+.jodit-wysiwyg p {
+  font-size: 1rem;
+  color: #555;
+  margin: 0.5em 0;
+}
+
+/* ---------------------------------- */
+/* ✅ LIST STYLES FIXED */
+/* ---------------------------------- */
+
+.jodit-wysiwyg ul,
+.jodit-wysiwyg ol {
+  margin-left: 1.25rem !important;
+  padding-left: 1.25rem !important;
+  list-style-position: outside !important;
+}
+
+/* Default unordered list */
+.jodit-wysiwyg ul {
+  list-style-type: disc !important;
+}
+
+/* Circle bullets (empty dots) */
+.jodit-wysiwyg ul[style*="circle"],
+.jodit-wysiwyg ul.circle,
+.jodit-wysiwyg ul[data-jodit-list="circle"],
+.jodit-wysiwyg ul.circle li,
+.jodit-wysiwyg ul[data-jodit-list="circle"] li {
+  list-style-type: circle !important;
+}
+
+/* Square bullets */
+.jodit-wysiwyg ul[style*="square"],
+.jodit-wysiwyg ul.square,
+.jodit-wysiwyg ul[data-jodit-list="square"],
+.jodit-wysiwyg ul.square li,
+.jodit-wysiwyg ul[data-jodit-list="square"] li {
+  list-style-type: square !important;
+}
+
+/* Inherit marker color */
+.jodit-wysiwyg ul.circle li::marker,
+.jodit-wysiwyg ul[data-jodit-list="circle"] li::marker,
+.jodit-wysiwyg ul.square li::marker,
+.jodit-wysiwyg ul[data-jodit-list="square"] li::marker {
+  color: inherit !important;
+}
+
+/* ---------------------------------- */
+/* ✅ ORDERED LISTS (NUMBERS, ALPHAS, ROMANS) */
+/* ---------------------------------- */
+
+.jodit-wysiwyg ol {
+  margin-left: 20px !important;
+  padding-left: 20px !important;
+  list-style-position: outside !important;
+}
+
+/* Default numbers (1,2,3) */
+.jodit-wysiwyg ol:not([style*="list-style-type"]) {
+  list-style-type: decimal;
+}
+
+/* Lower alpha */
+.jodit-wysiwyg ol[style*="lower-alpha"] {
+  list-style-type: lower-alpha !important;
+}
+
+/* Upper alpha */
+.jodit-wysiwyg ol[style*="upper-alpha"] {
+  list-style-type: upper-alpha !important;
+}
+
+/* Lower roman */
+.jodit-wysiwyg ol[style*="lower-roman"] {
+  list-style-type: lower-roman !important;
+}
+
+/* Upper roman */
+.jodit-wysiwyg ol[style*="upper-roman"] {
+  list-style-type: upper-roman !important;
+}
+
+/* Decimal (1,2,3) */
+.jodit-wysiwyg ol[style*="decimal"] {
+  list-style-type: decimal !important;
+}
+
+/* ---------------------------------- */
+/* ✅ Ensure <li> inherits properly */
+.jodit-wysiwyg li {
+  list-style: inherit !important;
+}

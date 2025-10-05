@@ -1,12 +1,16 @@
 import React, { useState, useRef, useCallback, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import JoditEditor from "jodit-react";
+// import JoditEditor from "jodit-react";
+import EditorPage from "../../components/EditorPage";
+
 import axios from "axios";
 import FileUploader from "../../components/FileUploader";
 
 export default function EditPost() {
   const editor = useRef(null);
   const { id } = useParams();
+  const [editorKey, setEditorKey] = useState(0);
+
   const navigate = useNavigate();
   const baseURL = import.meta.env.VITE_API_BASE_URL;
   
@@ -72,6 +76,7 @@ export default function EditPost() {
         });
         
         setContent(blog.content || "");
+        setEditorKey((prev) => prev + 1);
         setLoading(false);
       } catch (err) {
         console.error("Error fetching blog data:", err);
@@ -332,14 +337,26 @@ export default function EditPost() {
         </div>
         
         {/* Editor */}
-        <div className="border rounded">
+        {/* <div className="border rounded">
           <JoditEditor 
             ref={editor} 
             value={content}
             onChange={newContent => setContent(newContent)}
             config={config} 
           />
+        </div> */}
+
+        {/* Editor */}
+        <div className="border rounded p-2">
+          <EditorPage
+            key={editorKey} 
+            value={content}
+            onChange={(val) => setContent(val)}
+            placeholder="Edit your blog post..."
+          />
         </div>
+
+
         
         {/* Meta Title */}
         <input
