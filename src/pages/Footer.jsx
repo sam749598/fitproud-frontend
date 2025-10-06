@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaFacebookF, FaTwitter, FaInstagramSquare, FaPinterest  } from "react-icons/fa";
+import { FaFacebookF, FaYoutube, FaInstagramSquare, FaPinterest  } from "react-icons/fa";
 import vitaProzen from "../assets/vitaprozen.jpg";
 
 const Footer = () => {
@@ -38,7 +38,7 @@ const Footer = () => {
           <ul className="flex space-x-6 text-gray-700">
             <li>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/vitaprozen"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
@@ -49,18 +49,18 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://twitter.com"
+                href="https://www.youtube.com/@vitaprozen"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Twitter"
                 className="hover:text-sky-500 transition-colors"
               >
-                <FaTwitter size={22} />
+                <FaYoutube size={22}/>
               </a>
             </li>
             <li>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/vitaprozen/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -71,7 +71,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.pinterest.com/"
+                href="https://www.pinterest.com/vitaprozen/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"

@@ -3,12 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vitaprozen.svg" />
-     <link href="/src/index.css" rel="stylesheet">
+    <link href="/src/index.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VitaProZen</title>
+
+    <!-- Main Title -->
+    <title>Vitaprozen - Supplement Reviews & Wellness Insights</title>
+
+    <!-- Meta Description -->
+    <meta name="description" content="Vitaprozen reviews and compares top food supplements for health, energy, and wellness — helping you find what works best." />
+
+    <!-- Open Graph / Social Preview -->
+    <meta property="og:title" content="Vitaprozen - Supplement Reviews & Wellness Insights" />
+    <meta property="og:description" content="Vitaprozen reviews and compares top food supplements for health, energy, and wellness." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vitaprozen.com" />
+    <meta property="og:image" content="https://vitaprozen.com/vitaprozen.svg" />
+
+
+    <!-- JSON-LD Organization Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Vitaprozen",
+        "url": "https://vitaprozen.com",
+        "logo": "https://vitaprozen.com/vitaprozen.svg",
+        "sameAs": [
+          "https://www.facebook.com/vitaprozen",
+          "https://www.instagram.com/vitaprozen/",
+          "https://www.pinterest.com/vitaprozen/",
+          "https://www.youtube.com/@vitaprozen"
+
+        ],
+        "description": "Vitaprozen is an affiliate website dedicated to supplement reviews, wellness guides, and evidence-based health insights to help users make informed choices."
+      }
+    </script>
+
+    <!-- JSON-LD Website Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Vitaprozen",
+        "url": "https://vitaprozen.com",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://vitaprozen.com/search?query={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
+

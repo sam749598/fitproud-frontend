@@ -34,9 +34,9 @@ export default function Post() {
         setError("Post not found.");
         setLoading(false);
       });
-    // Fetch recent published posts (limit 10)
+    // Fetch recent published posts (limit 15)
     axios
-      .get("https://fitproud-backend.vercel.app/api/blogs?published=true&limit=10")
+      .get("https://fitproud-backend.vercel.app/api/blogs?published=true&limit=15")
       .then((res) => {
         setRecentPosts(res.data.data);
       })

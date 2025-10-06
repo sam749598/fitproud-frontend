@@ -9,7 +9,7 @@ export default function Blog() {
   const [error, setError] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPosts, setTotalPosts] = useState(0);
-  const postsPerPage = 10;
+  const postsPerPage = 15;
 
   useEffect(() => {
     const fetchPosts = async () => {
