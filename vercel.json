@@ -1,9 +1,9 @@
 {
-  
+  "version": 2,
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "source": "/sitemap.xml",
+      "destination": "https://fitproud-backend.vercel.app/sitemap.xml"
     }
   ]
 }
