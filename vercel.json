@@ -4,6 +4,12 @@
     {
       "source": "/sitemap.xml",
       "destination": "https://fitproud-backend.vercel.app/sitemap.xml"
+    },
+     {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
+
+
