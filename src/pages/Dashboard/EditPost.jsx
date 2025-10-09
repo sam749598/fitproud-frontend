@@ -45,48 +45,86 @@ export default function EditPost() {
   };
 
   // Fetch blog data when component mounts
-  useEffect(() => {
-    const fetchBlogData = async () => {
-      try {
-        setLoading(true);
+  // useEffect(() => {
+  //   const fetchBlogData = async () => {
+  //     try {
+  //       setLoading(true);
         
-        // First, get all blogs to find the one with matching ID
-        const allBlogsResponse = await axios.get(`${baseURL}/api/blogs`);
-        const blogs = allBlogsResponse.data.data;
+  //       // First, get all blogs to find the one with matching ID
+  //       const allBlogsResponse = await axios.get(`${baseURL}/api/blogs`);
+  //       const blogs = allBlogsResponse.data.data;
         
-        // Find the blog with the matching ID
-        const blog = blogs.find(b => b._id === id);
+  //       // Find the blog with the matching ID
+  //       const blog = blogs.find(b => b._id === id);
         
-        if (!blog) {
-          throw new Error("Blog not found");
-        }
+  //       if (!blog) {
+  //         throw new Error("Blog not found");
+  //       }
         
-        // Store the blog slug for potential future use
-        setBlogSlug(blog.slug);
+  //       // Store the blog slug for potential future use
+  //       setBlogSlug(blog.slug);
         
-        // Populate form with existing data
-        setFormData({
-          title: blog.title || "",
-          category: blog.category || "",
-          metaTitle: blog.metaTitle || "",
-          metaDescription: blog.metaDescription || "",
-          tags: blog.tags ? blog.tags.join(", ") : "",
-          published: blog.published,
-          thumbnail: blog.thumbnail || null,
-        });
+  //       // Populate form with existing data
+  //       setFormData({
+  //         title: blog.title || "",
+  //         category: blog.category || "",
+  //         metaTitle: blog.metaTitle || "",
+  //         metaDescription: blog.metaDescription || "",
+  //         tags: blog.tags ? blog.tags.join(", ") : "",
+  //         published: blog.published,
+  //         thumbnail: blog.thumbnail || null,
+  //       });
         
-        setContent(blog.content || "");
-        setEditorKey((prev) => prev + 1);
-        setLoading(false);
-      } catch (err) {
-        console.error("Error fetching blog data:", err);
-        setError("Failed to load blog data. Please try again.");
-        setLoading(false);
-      }
-    };
+  //       setContent(blog.content || "");
+  //       setEditorKey((prev) => prev + 1);
+  //       setLoading(false);
+  //     } catch (err) {
+  //       console.error("Error fetching blog data:", err);
+  //       setError("Failed to load blog data. Please try again.");
+  //       setLoading(false);
+  //     }
+  //   };
 
-    fetchBlogData();
-  }, [id, baseURL]);
+  //   fetchBlogData();
+  // }, [id, baseURL]);
+
+  useEffect(() => {
+  const fetchBlogData = async () => {
+    try {
+      setLoading(true);
+
+      const allBlogsResponse = await axios.get(`${baseURL}/api/blogs`);
+      const blogs = allBlogsResponse.data.data;
+      const blog = blogs.find((b) => b._id === id);
+
+      if (!blog) throw new Error("Blog not found");
+
+      setBlogSlug(blog.slug);
+
+      setFormData({
+        title: blog.title || "",
+        category: blog.category || "",
+        metaTitle: blog.metaTitle || "",
+        metaDescription: blog.metaDescription || "",
+        tags: blog.tags ? blog.tags.join(", ") : "",
+        published: blog.published,
+        thumbnail: blog.thumbnail || null,
+      });
+
+      // ⚡ Force reset EditorPage with content
+      setContent(blog.content || "");
+      setEditorKey(Date.now()); // unique key, ensures re-render
+      setLoading(false);
+    } catch (err) {
+      console.error("Error fetching blog data:", err);
+      setError("Failed to load blog data. Please try again.");
+      setLoading(false);
+    }
+  };
+
+  fetchBlogData();
+}, [id, baseURL]);
+
 
   useEffect(() => {
   const isLoggedIn = localStorage.getItem('adminLoggedIn');
@@ -438,7 +476,5 @@ export default function EditPost() {
     </div>
   );
 }
-
-
 
 
