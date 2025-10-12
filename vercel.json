@@ -12,17 +12,18 @@
   ],
   "redirects": [
     {
-      "source": "http://vitaprozen.com/:path*",
+      "source": "/:path*",
+      "has": [
+        { "type": "host", "value": "vitaprozen.com" }
+      ],
       "destination": "https://www.vitaprozen.com/:path*",
       "permanent": true
     },
     {
-      "source": "https://vitaprozen.com/:path*",
-      "destination": "https://www.vitaprozen.com/:path*",
-      "permanent": true
-    },
-    {
-      "source": "http://www.vitaprozen.com/:path*",
+      "source": "/:path*",
+      "has": [
+        { "type": "host", "value": "www.vitaprozen.com" }
+      ],
       "destination": "https://www.vitaprozen.com/:path*",
       "permanent": true
     }
