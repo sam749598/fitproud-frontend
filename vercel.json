@@ -18,14 +18,6 @@
       ],
       "destination": "https://www.vitaprozen.com/:path*",
       "permanent": true
-    },
-    {
-      "source": "/:path*",
-      "has": [
-        { "type": "host", "value": "www.vitaprozen.com" }
-      ],
-      "destination": "https://www.vitaprozen.com/:path*",
-      "permanent": true
     }
   ]
 }
