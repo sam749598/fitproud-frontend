@@ -5,18 +5,26 @@
       "source": "/sitemap.xml",
       "destination": "https://fitproud-backend.vercel.app/sitemap.xml"
     },
-     {
+    {
       "source": "/(.*)",
       "destination": "/index.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "http://vitaprozen.com/:path*",
+      "destination": "https://www.vitaprozen.com/:path*",
+      "permanent": true
     },
     {
-  "redirects": [
-    { "source": "http://vitaprozen.com/:path*", "destination": "https://www.vitaprozen.com/:path*", "permanent": true },
-    { "source": "https://vitaprozen.com/:path*", "destination": "https://www.vitaprozen.com/:path*", "permanent": true },
-    { "source": "http://www.vitaprozen.com/:path*", "destination": "https://www.vitaprozen.com/:path*", "permanent": true }
+      "source": "https://vitaprozen.com/:path*",
+      "destination": "https://www.vitaprozen.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "http://www.vitaprozen.com/:path*",
+      "destination": "https://www.vitaprozen.com/:path*",
+      "permanent": true
+    }
   ]
 }
-  ]
-}
-
-
