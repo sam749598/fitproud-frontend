@@ -1,29 +1,21 @@
+// src/components/Seo.jsx
 import { useEffect } from "react";
 
-export default function Seo({
-  title,
-  description,
-  canonical,
-  schema,
-}) {
+export default function Seo({ title, description, canonical, schema }) {
   useEffect(() => {
-    // ----- Page title -----
-    if (title) {
-      document.title = title;
-    }
+    // ---- Title ----
+    if (title) document.title = title;
 
-    // ----- Meta description -----
-    const metaDesc = document.querySelector("meta[name='description']");
-    if (metaDesc) {
-      metaDesc.setAttribute("content", description || "");
-    } else {
-      const meta = document.createElement("meta");
-      meta.name = "description";
-      meta.content = description || "";
-      document.head.appendChild(meta);
+    // ---- Description ----
+    let metaDesc = document.querySelector("meta[name='description']");
+    if (!metaDesc) {
+      metaDesc = document.createElement("meta");
+      metaDesc.name = "description";
+      document.head.appendChild(metaDesc);
     }
+    metaDesc.setAttribute("content", description || "");
 
-    // ----- Canonical -----
+    // ---- Canonical ----
     let linkCanonical = document.querySelector("link[rel='canonical']");
     if (!linkCanonical) {
       linkCanonical = document.createElement("link");
@@ -32,19 +24,20 @@ export default function Seo({
     }
     linkCanonical.setAttribute("href", canonical || window.location.href);
 
-    // ----- JSON-LD Structured Data -----
+    // ---- JSON-LD Structured Data ----
+    let script;
     if (schema) {
-      const script = document.createElement("script");
+      script = document.createElement("script");
       script.type = "application/ld+json";
       script.text = JSON.stringify(schema);
       document.head.appendChild(script);
-
-      // Cleanup on unmount
-      return () => {
-        document.head.removeChild(script);
-      };
     }
+
+    // Cleanup when unmounting or changing page
+    return () => {
+      if (script) document.head.removeChild(script);
+    };
   }, [title, description, canonical, schema]);
 
-  return null; // no UI
+  return null;
 }

@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import axios from "axios";
-import Seo from "../components/Seo.jsx"; // Make sure the path is correct
+import Seo from "../components/Seo.jsx";
 
 export default function Post() {
   const { slug } = useParams();
@@ -27,7 +27,7 @@ export default function Post() {
     setLoading(true);
     setError(null);
 
-    // Fetch current post by slug
+    // Fetch current post
     axios
       .get(`https://fitproud-backend.vercel.app/api/blogs/${slug}`)
       .then((res) => {
@@ -39,7 +39,7 @@ export default function Post() {
         setLoading(false);
       });
 
-    // Fetch recent published posts
+    // Fetch recent posts
     axios
       .get("https://fitproud-backend.vercel.app/api/blogs?published=true&limit=15")
       .then((res) => setRecentPosts(res.data.data))
@@ -56,24 +56,38 @@ export default function Post() {
   if (error) return <p className="text-center py-10 text-red-500">{error}</p>;
   if (!post) return null;
 
-  // JSON-LD schema for the blog post
+  // --- JSON-LD BlogPosting Schema ---
   const schema = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://www.vitaprozen.com/blog/${slug}`
+    },
     "headline": post.title,
     "description": post.metaDescription || post.content.slice(0, 160),
-    "datePublished": post.createdAt,
+    "image": post.thumbnail || "https://www.vitaprozen.com/default-thumbnail.jpg",
     "author": {
       "@type": "Person",
-      "name": post.author || "Vitaprozen"
+      "name": post.author || "Vitaprozen Editorial Team",
+      "url": "https://www.vitaprozen.com/about"
     },
-    "url": `https://www.vitaprozen.com/blog/${slug}`,
-    "image": post.thumbnail || ""
+    "publisher": {
+      "@type": "Organization",
+      "name": "Vitaprozen",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.vitaprozen.com/logo.png"
+      }
+    },
+    "datePublished": post.createdAt,
+    "dateModified": post.updatedAt || post.createdAt,
+    "url": `https://www.vitaprozen.com/blog/${slug}`
   };
 
   return (
     <>
-      {/* --- SEO --- */}
+      {/* --- SEO Component --- */}
       <Seo
         title={post.metaTitle || post.title}
         description={post.metaDescription || post.content.slice(0, 160)}
@@ -82,7 +96,7 @@ export default function Post() {
       />
 
       <main className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 lg:grid-cols-3 gap-10">
-        {/* Left: Main post */}
+        {/* Left: Blog Content */}
         <article className="lg:col-span-2 bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
           {post.category && (
             <div className="mb-3">
@@ -108,6 +122,7 @@ export default function Post() {
               day: "numeric",
             })}
           </time>
+
           {post.thumbnail && (
             <img
               src={post.thumbnail}
@@ -115,6 +130,7 @@ export default function Post() {
               className="w-full max-h-96 object-cover rounded-md mb-6"
             />
           )}
+
           <div
             className="prose dark:prose-invert max-w-none"
             dangerouslySetInnerHTML={{ __html: post.content }}
