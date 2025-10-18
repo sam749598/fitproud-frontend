@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
@@ -26,10 +26,27 @@ import Privacy from './pages/Footer/Privacy';
 import Disclaimers from './pages/Footer/Disclaimers';
 import AdminLogin from './pages/Dashboard/Login';
 
+// ✅ Google Analytics tracker for route changes
+function AnalyticsTracker() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (window.gtag) {
+      window.gtag('config', 'G-4W4KP2GCYK', {
+        page_path: location.pathname + location.search,
+      });
+    }
+  }, [location]);
+
+  return null;
+}
 
 function App() {
   return (
     <Router>
+      {/* Track route changes */}
+      <AnalyticsTracker />
+
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -48,14 +65,12 @@ function App() {
           <Route path="weight" element={<Weight />} />
         </Route>
 
-        {/* Dashboard Routes - All protected by login */}
-        <Route path="/dashboard" element={<DashboardLayout /> }>
+        <Route path="/dashboard" element={<DashboardLayout />}>
           <Route index element={<ManagePosts />} />
           <Route path="create" element={<CreatePost />} />
           <Route path="edit/:id" element={<EditPost />} />
         </Route>
 
-        {/* Admin Login Route */}
         <Route path="/dashboard/login" element={<AdminLogin />} />
 
         <Route path="/about" element={<AboutUs />} />
@@ -70,6 +85,3 @@ function App() {
 }
 
 export default App;
-
-
-
