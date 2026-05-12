@@ -187,14 +187,17 @@ const API = 'https://fitproud-backend.vercel.app/api/blogs';
 
 // ── Category list ─────────────────────────────────────────────────────────────
 // Edit this array to add / remove categories shown in the filter bar.
+// id must match exactly what your backend stores in post.category
 const CATEGORIES = [
-  { id: 'all',       label: 'All'        },
-  { id: 'fitness',   label: 'Fitness'    },
-  { id: 'nutrition', label: 'Nutrition'  },
-  { id: 'workout',   label: 'Workout'    },
-  { id: 'lifestyle', label: 'Lifestyle'  },
-  { id: 'tips',      label: 'Tips'       },
-  { id: 'other',     label: 'Other'      },
+  { id: 'all',                           label: 'All'                        },
+  { id: 'Beauty & Skin Care',            label: 'Beauty & Skin Care'         },
+  { id: 'Brain & Mental Wellness',       label: 'Brain & Mental Wellness'    },
+  { id: 'Core Health',                   label: 'Core Health'                },
+  { id: 'Hormonal & Reproductive Health',label: 'Hormonal & Reproductive Health' },
+  { id: 'Miscellaneous',                 label: 'Miscellaneous'              },
+  { id: 'Musculoskeletal & Mobility',    label: 'Musculoskeletal & Mobility' },
+  { id: 'Organ-Specific Support',        label: 'Organ-Specific Support'     },
+  { id: 'Weight & Metabolism',           label: 'Weight & Metabolism'        },
 ];
 
 export default function ManagePosts() {
@@ -268,7 +271,7 @@ export default function ManagePosts() {
   const filteredPosts = posts.filter((p) => {
     const matchCategory =
       activeCategory === 'all' ||
-      (p.category || 'other').toLowerCase() === activeCategory;
+      (p.category || 'Miscellaneous') === activeCategory;
 
     const matchSearch =
       searchQuery.trim() === '' ||
@@ -287,7 +290,7 @@ export default function ManagePosts() {
     catId === 'all'
       ? posts.length
       : posts.filter(
-          (p) => (p.category || 'other').toLowerCase() === catId
+          (p) => (p.category || 'Miscellaneous') === catId
         ).length;
 
   // ── UI ──────────────────────────────────────────────────────────────────────
