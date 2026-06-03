@@ -25,6 +25,7 @@ import Terms from './pages/Footer/Terms';
 import Privacy from './pages/Footer/Privacy';
 import Disclaimers from './pages/Footer/Disclaimers';
 import AdminLogin from './pages/Dashboard/Login';
+import ScrollToTop from './ScrollToTop';
 
 // ✅ Google Analytics tracker for route changes
 function AnalyticsTracker() {
@@ -44,6 +45,7 @@ function AnalyticsTracker() {
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       {/* Track route changes */}
       <AnalyticsTracker />
 
